@@ -41,7 +41,7 @@ class AppNavbar extends React.Component {
                         { !this.props.user.isAuthenticated && (
                             <React.Fragment>
                                 <Link className="btn-custom" to="/user/login">Đăng nhập</Link>
-                                <Nav.Link className="btn-custom" href="./register.html">Đăng kí</Nav.Link>
+                                <Nav.Link className="btn-custom" href="/user/register.html">Đăng kí</Nav.Link>
                             </React.Fragment>
                         )}
                         { this.props.user.isAuthenticated && (

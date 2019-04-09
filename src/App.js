@@ -24,7 +24,7 @@ import FormExam from './components/admin/examManagement/FormExam';
 
 window.jQuery = window.$ = $;
 
-export const endPointRoot = 'http://192.168.0.110:45455';
+export const endPointRoot = 'http://172.30.218.33:45455';
 
 class App extends Component {
   render() {
